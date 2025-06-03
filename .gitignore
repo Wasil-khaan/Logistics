@@ -1,0 +1,54 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/.env
+/.env.backup
+/.env.example.local
+/.phpunit.result.cache
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+vite.config.js
+.env.testing
+
+# Laravel IDE Helper
+/_ide_helper.php
+/_ide_helper_models.php
+.phpstorm.meta.php
+
+# Laravel Horizon
+horizon.log
+
+# Laravel Telescope
+storage/telescope
+
+# Laravel Mix
+/public/mix-manifest.json
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore log files and databases
+*.log
+*.sqlite
+*.mysql
+*.sqlite3
+
+# Ignore composer & npm lock files if you want to manage dependencies independently
+# composer.lock
+# package-lock.json
+# yarn.lock
+
+# VSCode settings (optional)
+.vscode
+
+# Cache and debug
+bootstrap/cache/*.php
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*
